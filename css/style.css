@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Give+You+Glory);
+body {
+    background: #fff;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #25282b;
+}
+
+a {
+    color: #f30;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ef3b0e
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #404048;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #eaebeb;
+}
+
+
+.container {
+    max-width: 1270px;
+    width: 100vw;
+}
+
+.page-wrapper {
+    padding-top: 68px;
+    /* Used for inpper pages if navigation fixed to the top */
+}
+
+.inner-page {
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+
+
+
+
+/* ==========================
+*   Hero
+============================*/
+
+.hero {
+    padding-top: 14%;
+    padding-bottom: 20%;
+    text-align: center;
+    width: 100vw;
+    top: 100px;
+ 
+}
+
+.hero h1 {
+    font-family: "Give You Glory", cursive;
+    color:black;
+    font-size: 2.7em;
+    font-weight: 400;
+}
+
+.hero:before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(13, 102, 245, 0.37);
+}
+
+.hero .hero-inner {
+    position: relative;
+    z-index: 1
+}
+
+
+
+
+/*-----------------------------------  
+How it works section
+-----------------------------------*/
+
+.how-it-works {
+    background-color: rgb(16, 107, 244);;
+    background-repeat: repeat-x, repeat;
+    background-position: bottom, center;
+    padding: 90px 0;
+    position: relative;
+    width: 100vw;
+}
+
+
+
+.how-it-works .text-xs-center>h2 {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.how-it-works-wrap h2 {
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.how-it-works-wrap>p {
+    font-weight: 300;
+}
+
+.how-it-works-steps {
+    position: relative;
+    padding: 0 2.1rem;
+}
+
+.how-it-works .how-middle {
+    margin-top: 70px;
+}
+
+.how-it-works h3 {
+    color: #fff
+}
+
+
+/*-----------------------------------  
+Steps
+-----------------------------------*/
+
+.how-it-works p {
+    color: black;
+}
+
+.step .icon {
+    position: relative;
+    width: 86px;
+    height: 86px;
+    margin: 10px auto 20px;
+    line-height: 78px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.step .icon:before {
+    content: attr(data-step);
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 38px;
+    background-color: #f30;
+    border-radius: 50%;
+    font-size: 1.5em;
+    font-family: "Give You Glory", cursive;
+    font-weight: 700;
+    color: #fff;
+}
+
+.step .icon img,
+.step .icon svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+    height: 34px;
+}
+
+
+
+/* ==========================
+*  Footer
+============================*/
+
+footer {
+    background-color: #fff;
+    padding: 90px 0;
+    z-index: 1;
+    position: relative;
+    width: 100vw;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .footer-logo-block {
+        margin-bottom: 25px
+    }
+}
+
